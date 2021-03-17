@@ -1,0 +1,9 @@
+<div>
+    <input type="text" ngModel="customerName">
+
+</div>
+<div class="row -center">
+    <div class="card col-3 m-2"*ngFor="let cake of cakes">
+        <app-cake-card [cake]="cake" (childEvent)=addToOrder($event)></app-cake-card>
+    </div>
+</div>

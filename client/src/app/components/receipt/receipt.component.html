@@ -1,0 +1,12 @@
+<div>
+    <p>Total : {{this.stateService.total}}</p>
+</div>
+<div class="row" *ngFor="let currentCake of cart">
+    <div class="card col-10 m-2 justify-center">
+        <div class="card-body">
+            <p>{{currentCake.name}}</p><br>
+            <p>{{currentCake.price}}</p>
+            <button class="btn-primary col-8" (click)="removeFromCart(currentCake)">Remove</button>
+        </div>
+    </div>
+</div>

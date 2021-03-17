@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "audit": "0.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "fix": "0.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "start": "^5.1.0"
+  }
+}
